@@ -1,0 +1,15 @@
+header {
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    padding: 1em 0;
+
+    & h1, h2 {
+        margin: 0;
+    }
+
+    @media screen and (width >= $tablet) {
+        width: 100%;
+    }
+
+}

@@ -1,0 +1,20 @@
+{
+    "name": "MattSlone/WebScraper",
+    "description": "A Simple Web Scraper",
+    "type": "project",
+    "authors": [
+        {
+            "name": "MattSlone",
+            "email": "slonem01@gmail.com"
+        }
+    ],
+    "require": {
+        "altorouter/altorouter": "1.1.0",
+        "masterminds/html5": "2.*"
+    },
+    "autoload": {
+        "psr-4": {
+            "Scraper\\": "src/"
+        }
+    }
+}

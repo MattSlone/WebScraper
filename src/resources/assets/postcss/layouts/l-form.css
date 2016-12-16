@@ -1,0 +1,52 @@
+form {
+    display: flex;
+    flex-flow: column;
+
+    margin: .5em;
+
+    & section {
+        margin: .5em 0;
+
+        &.checkboxes {
+            display: flex;
+
+            & div {
+                display: flex;
+                margin-right: 1em;
+
+                & input {
+                    margin-right: .5em;
+                }
+
+                & label {
+                    width: auto;
+                }
+
+            }
+
+        }
+
+        & label {
+            width: 100%;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+
+            & span {
+                flex: 1;
+            }
+
+            & input, select {
+                flex: 3;
+                overflow-x: hidden;
+            }
+
+        }
+
+    }
+
+    @media screen and (width >= $tablet) {
+        width: 50%;
+    }
+
+}

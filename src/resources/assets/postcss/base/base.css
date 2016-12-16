@@ -1,0 +1,19 @@
+@import 'presets.css';
+@import 'normalize.css';
+
+html, body {
+    width: 100%;
+    font-size: 14px;
+}
+
+body {
+
+    @media screen and (width >= $tablet) {
+        display: flex;
+        flex-flow: column;
+        align-items: center;
+
+        font-size: 16px;
+    }
+
+}

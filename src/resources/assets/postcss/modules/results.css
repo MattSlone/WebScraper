@@ -1,0 +1,17 @@
+.results {
+    word-wrap: break-word;
+
+    &__label {
+        text-decoration: underline;
+
+    }
+
+    &__result {
+
+        &__key {
+            font-weight: bold;
+        }
+
+    }
+
+}
